@@ -160,7 +160,7 @@ export const Controls = controlsInjector(observer(({ store, history, annotation 
             await store.commentStore.commentFormSubmit();
             store.updateAnnotation();
           }}>
-            {isUpdate ? "Update" : "Submit"}
+            {isUpdate ? "更新" : "创建"}
           </Button>
         </ButtonTooltip>
       );
